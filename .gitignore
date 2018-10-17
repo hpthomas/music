@@ -1,0 +1,9 @@
+/dist
+/tmp
+/node_modules
+/src/environments/spotifyApiKey.ts
+.DS_Store
+Thumbs.db
+env.spotifyToken
+secret.txt
+
