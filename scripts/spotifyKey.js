@@ -15,9 +15,7 @@ var fs = require('fs');
 // Credentials for Spotify
 const SPOTIFY_BASE_URI = 'https://api.spotify.com/v1';
 var secret = fs.readFileSync('./secret.txt').toString();
-console.log(secret);
 var secrets = secret.split("\n");
-console.log(secret);
 const SPOTIFY_CLIENT_ID = secrets[0];
 const SPOTIFY_CLIENT_SECRET = secrets[1];
 const BASE_64_ENCODED_CLIENT_CREDENTIALS = btoa(
